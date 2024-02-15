@@ -1731,8 +1731,9 @@
 // Let's Go Pikachu & Let's Go Eevee
 #define SPECIES_PIKACHU_PARTNER                         PLACEHOLDER_START + 53
 #define SPECIES_EEVEE_PARTNER                           PLACEHOLDER_START + 54
+#define SPECIES_JACKFROST								PLACEHOLDER_START + 55
 
-#define GIGANTAMAX_START                                SPECIES_EEVEE_PARTNER
+#define GIGANTAMAX_START                                SPECIES_JACKFROST
 
 // Gigantamax Forms
 #define SPECIES_VENUSAUR_GIGANTAMAX                     GIGANTAMAX_START + 1

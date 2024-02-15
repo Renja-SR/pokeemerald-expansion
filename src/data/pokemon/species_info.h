@@ -279,6 +279,50 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     /* You may add any custom species below this point based on the following structure: */
 
+    [SPECIES_JACKFROST] =
+    {
+        .baseHP        = 50,
+        .baseAttack    = 30,
+        .baseDefense   = 45,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 60,
+        .types = { TYPE_ICE, TYPE_ICE },
+        .catchRate = 45,
+        .expYield = 64,
+        .evYield_SpAttack = 2,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_ICE_BOOST, ABILITY_ICE_DRAIN, ABILITY_ICE_BODY},
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Jack Frost"),
+        .cryId = CRY_FEZANDIPITI,
+        .natDexNum = NATIONAL_DEX_JACKFROST,
+        .categoryName = _("Fresquísimo"),
+        .height = 14,
+        .weight = 301,
+        .description = COMPOUND_STRING(
+            "No veas que fresco va mi pana"),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        FRONT_PIC(Jackfrost, 64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Jackfrost,
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        BACK_PIC(Jackfrost, 64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        PALETTES(Jackfrost),
+        ICON(Jackfrost, 0),
+        //.footprint = gMonFootprint_Fezandipiti,
+        LEARNSETS(Fezandipiti),
+    },
+
     /*
     [SPECIES_NONE] =
     {
