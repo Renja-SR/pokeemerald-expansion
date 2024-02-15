@@ -10915,3 +10915,10 @@ const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mar
     const u32 gMonBackPic_Jackfrost[] = INCBIN_U32("graphics/pokemon/jackfrost/back.4bpp.lz");
     const u32 gMonShinyPalette_Jackfrost[] = INCBIN_U32("graphics/pokemon/jackfrost/shiny.gbapal.lz");
     const u8 gMonIcon_Jackfrost[] = INCBIN_U8("graphics/pokemon/jackfrost/icon.4bpp");
+
+    const u32 gMonFrontPic_MewtwoShadow[] = INCBIN_U32("graphics/pokemon/mewtwo/shadow/anim_front.4bpp.lz");
+    const u32 gMonPalette_MewtwoShadow[] = INCBIN_U32("graphics/pokemon/mewtwo/shadow/normal.gbapal.lz");
+    const u32 gMonBackPic_MewtwoShadow[] = INCBIN_U32("graphics/pokemon/mewtwo/shadow/back.4bpp.lz");
+    const u32 gMonShinyPalette_MewtwoShadow[] = INCBIN_U32("graphics/pokemon/mewtwo/shadow/shiny.gbapal.lz");
+    const u8 gMonIcon_MewtwoShadow[] = INCBIN_U8("graphics/pokemon/mewtwo/shadow/icon.4bpp");
+

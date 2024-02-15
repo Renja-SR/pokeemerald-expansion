@@ -299,6 +299,7 @@ static const u8 sToxicChainDescription[] = _("Moves can poison.");
 static const u8 sSupersweetSyrupDescription[] = _("Lowers the foe's Speed.");
 static const u8 sIceBoostDescription[] = _("Potencia ataques de hielo");
 static const u8 sIceDrainDescription[] = _("Absorbe ataques de hielo");
+static const u8 sDarkForceDescription[] = _("Como Life Orb");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -612,6 +613,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SUPERSWEET_SYRUP] = _("Supersweet Syrup"),
     [ABILITY_ICE_BOOST] = _("Ice Boost"),
     [ABILITY_ICE_DRAIN] = _("Ice Drain"),
+    [ABILITY_DARK_FORCE] = _("Dark Force"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -925,6 +927,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SUPERSWEET_SYRUP] = _("SuprswtSyrup"),
     [ABILITY_ICE_BOOST] = _("Ice Boost"),
     [ABILITY_ICE_DRAIN] = _("Ice Drain"),
+    [ABILITY_DARK_FORCE] = _("Dark Force"),
 };
 #endif
 
@@ -1239,4 +1242,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_SUPERSWEET_SYRUP] = sSupersweetSyrupDescription,
     [ABILITY_ICE_BOOST] = sIceBoostDescription,
     [ABILITY_ICE_DRAIN] = sIceDrainDescription,
+    [ABILITY_DARK_FORCE] = sDarkForceDescription,
 };
